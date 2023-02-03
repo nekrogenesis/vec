@@ -27,4 +27,4 @@ do
         let "PASS++"
     fi
 done
-printf "\n$TEST TESTED - $PASS ${GREEN}PASSED${RESET} - $FAIL ${RED}FAILED${RESET}\n"
+printf "\n$TEST ${BOLD}TESTED - $PASS ${GREEN}PASSED${RESET} - $FAIL ${RED}FAILED${RESET}\n"

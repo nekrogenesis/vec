@@ -4,10 +4,10 @@
 #include <stddef.h>
 
 typedef struct Vec {
-    void *arr;
-    size_t cap;
-    size_t len;
-    size_t size;
+    void *arr;      /* array                    */
+    size_t cap;     /* capacity                 */
+    size_t len;     /* length                   */
+    size_t size;    /* size of one item in .arr */
 } Vec;
 
 typedef enum VecError {

@@ -7,7 +7,6 @@
 
 int main() {
     Vec *v = vec_init(sizeof(size_t));
-    vec_callback(vec_error_handler);
     size_t *arr = malloc(sizeof *arr * ITEMS);
     assert(vec_len(v) == 0);
     for (size_t i = 0; i < ITEMS; i++) {

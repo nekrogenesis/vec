@@ -1,11 +1,3 @@
-# VEC
-C99 vector implementation
-
-## DOCUMENTATION
-All functions are documented in the source.
-
-## EXAMPLE
-```c
 #include "../src/vec.h"
 #include <time.h>
 #include <stdio.h>
@@ -33,4 +25,3 @@ int main() {
     puts("\nfreeing the vector");
     vec_free(vec);
 }
-```
